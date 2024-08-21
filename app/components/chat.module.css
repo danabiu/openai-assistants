@@ -20,18 +20,19 @@
   border-radius: 60px;
   border: 2px solid transparent;
   font-size: 1em;
-  background-color: #efefef;
+  color: #fff;
+  background-color: rgb(46, 46, 46);
 }
 
 .input:focus {
   outline: none !important;
-  border-color: #000;
-  background-color: white;
+  border-color: rgb(46, 46, 46);
+  background-color: rgb(46, 46, 46);
 }
 
 .button {
   padding: 8px 24px;
-  background-color: #000;
+  background-color: #ff5001;
   color: white;
   border: none;
   font-size: 1em;
@@ -39,7 +40,7 @@
 }
 
 .button:disabled {
-  background-color: lightgrey;
+  background-color: #ae3c08;
 }
 
 .messages {
@@ -72,11 +73,12 @@
 .userMessage {
   align-self: flex-end;
   color: #fff;
-  background-color: #000;
+  background-color: #333333;
 }
 
 .assistantMessage {
-  background-color: #efefef;
+  color: #fff;
+  background-color: #181818ff;
 }
 
 .codeMessage {
